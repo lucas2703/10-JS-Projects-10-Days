@@ -6,12 +6,20 @@
 -   future date
 -   timer
 
+    Completion:
+    
+    //TODO
+
 2. Quiz App
 
 -   Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
 -   questions from obj
 -   select answer
 -   at the end show score
+
+    Completion:
+    
+    //TODO
  
 3. Recipe App
 
@@ -20,8 +28,8 @@
 -   fav recipe (w/ localStorage)
 
     Completion:
-    ![alt text](https://imgur.com/mfAZlpL)
-    ![alt text](https://imgur.com/9V1xNdl)
+    
+    <img src="https://i.imgur.com/9V1xNdl.png" width="280" height="400"><img src="https://i.imgur.com/mfAZlpL.png" width="280" height="400">
 
 4. Notes App
 
