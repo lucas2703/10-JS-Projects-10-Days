@@ -19,6 +19,10 @@
 -   recipe info on click
 -   fav recipe (w/ localStorage)
 
+    Completion:
+    ![alt text](https://imgur.com/mfAZlpL)
+    ![alt text](https://imgur.com/9V1xNdl)
+
 4. Notes App
 
 -   Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65

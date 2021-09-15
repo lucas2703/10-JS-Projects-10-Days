@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+    background-color: #b8c6db;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.fa-heart {
+    color: rgb(207, 201, 201);
+    font-size: 1.5rem;
+    transition: 0.2s;
+}
+
+.fa-heart:hover {
+    color: rgb(196, 178, 178);
+}
+
+.fa-heart:active {
+    color: rgb(228, 82, 82);
+}
+
+header {
+    padding: 0.5rem;
+}
+
+header input[list]:focus {
+    border: 2px solid #555
+}
+
+header input[list] {
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    width: 200px;
+    outline: none;
+    transition: 0.5s;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: #03c8a8;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.fav-container {
+    align-items: center;
+    background-color: #fde7f9;
+    border: #aacaef;
+    list-style-type: none;
+    text-align: center;
+    padding: 0.25rem 1rem;
+    width: 400px;
+}
+
+.fav-container h3 {
+    text-align: center;
+}
+
+.fav-container li {
+    max-width: 75px;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.caption {
+    display: block;
+    font-size: 9pt;
+}
+
+.fav-container img {
+    border-radius: 25px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.fav-container img:hover {
+    opacity: 75%;
+}
+
+.fav-meals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.fav-meals li {
+    display: inline-block;
+}
+
+.meal-description, .recipe-container {
+    position: absolute;
+}
+
+.meal-description {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.3);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 0;
+    width: 400px;
+    z-index: 100;   
+}
+
+.meal-description h2 {
+    text-align: center;
+}
+
+.meal-description h3 {
+    margin-left: 15px;
+}
+
+.recipe-container {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+}
+
+.rand-meal-body {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+#rand-img {
+    cursor: pointer;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 350px;
+}
+
+.rand-meal-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    overflow: hidden;
+    width: 350px;
+}
+
+.rand-meal-body h4 {
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.rand-meal-container {
+    border-radius: 8px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.3);
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.random-recipe {
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: grey;
+    font-size: 12pt;
+    margin-top: 20px;
+    padding: 0.1rem 1rem;  
+    position: absolute;
+}
+
+.fa-search {
+    cursor: pointer;
+    margin: -10px;
+    padding: 3px;
+}
+
+.fa-search:active {
+    color: #89d8d3;
+}
+
+.search-input::-webkit-calendar-picker-indicator {
+    display:none !important;
+}
+
+#fav-meals {
+    display: inline;
+    list-style-type: none;
+}
+
+#fav-button {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    margin: 0px 15px;
+    width: 40px;
+}
+
+#meal-instr {
+    font-size: 9pt;
+    margin: 5px 15px;
+    word-wrap: break-word;
+}
+
+#meal-ingred {
+    font-size: 11pt;
+    margin: 15px;
+    word-wrap: break-word;
+}
+
+#ingred-list {
+    font-size: 10pt;
+}

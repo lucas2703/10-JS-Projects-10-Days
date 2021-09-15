@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recipe App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="meal-description" id="meal-desc"></div>
+
+        <div class="recipe-container">
+            <header>
+                <input list="search-text" name="search" id="search-box" class="searchp-input">
+                <datalist id="search-text"></datalist>
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </header>
+
+            <div class="fav-container" id="favContainer">
+                <h3 clas>Favourite Meals</h3>
+                <ul class="fav-meals" id="fav-meals"></ul>
+            </div>
+
+            <div class="rand-meal-container">
+                <div class="meal-header">
+                    <span class="random-recipe">Random Recipe</span>
+                </div>
+
+                <div class="rand-meal-body" id="rand-body">
+                    <h4 id="rand-meal-header">Random Meal Name</h4>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
