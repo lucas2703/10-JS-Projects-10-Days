@@ -11,24 +11,18 @@ function startUp()
 
 startUp();
 
-function loadImage(imgSrc, parentID, id, random=false)
+function loadRandomImage(imgSrc, parentID, id)
 {
-    // for random meal image
-    if (random == true)
-    {
-        let randImg = document.createElement('img');
-        randImg.src = imgSrc;
-        randImg.id = id;
-        document.getElementById(parentID).appendChild(randImg);
+    let randImg = document.createElement('img');
+    randImg.src = imgSrc;
+    randImg.id = id;
+    document.getElementById(parentID).appendChild(randImg);
 
-        document.getElementById('rand-img').addEventListener('click', () => {
-            displayMealInfo(random=true);
-        })
+    document.getElementById('rand-img').addEventListener('click', () => {
+        displayMealInfo(random=true);
+    })
 
-        return
-    }
-    // else it's for favourite meals
-
+    return
 }
 
 async function displayMealInfo(random=false, mealName=null)
@@ -127,7 +121,7 @@ async function loadRandomMeal()
 
     console.log(randomMealData.meals[0]);
 
-    loadImage(randomMealData.meals[0].strMealThumb, 'rand-body', 'rand-img', true);
+    loadRandomImage(randomMealData.meals[0].strMealThumb, 'rand-body', 'rand-img');
 
     let randomName = randomMealData.meals[0].strMeal;
     document.getElementById('rand-meal-header').innerHTML = randomName;
