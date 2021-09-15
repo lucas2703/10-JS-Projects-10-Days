@@ -20,8 +20,8 @@
 -   fav recipe (w/ localStorage)
 
     Completion:
-    ![alt text](https://i.imgur.com/mfAZlpL.png)
-    ![alt text](https://i.imgur.com/9V1xNdl.png)
+    ![alt text](https://i.imgur.com/mfAZlpL.png =250x400)
+    ![alt text](https://i.imgur.com/9V1xNdl.png =250x400)
 
 4. Notes App
 
