@@ -8,7 +8,7 @@
 
     Completion:
     
-    //TODO
+    <img src="https://i.imgur.com/S6Yt9jR.png" width="600" height="300">
 
 2. Quiz App
 
@@ -19,7 +19,7 @@
 
     Completion:
     
-    //TODO
+    <img src="https://i.imgur.com/YXaw2qO.png" width="400" height="200"><img src="https://i.imgur.com/kn2BQZq.png" width="300" height="100">
  
 3. Recipe App
 
