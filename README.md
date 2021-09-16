@@ -25,7 +25,8 @@
 
 -   Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
 -   recipe info on click
--   fav recipe (w/ localStorage)
+-   implement meal API
+-   fav recipe
 
     Completion:
     
