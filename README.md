@@ -19,7 +19,9 @@
 
     Completion:
     
-    <img src="https://i.imgur.com/YXaw2qO.png" width="400" height="200"><img src="https://i.imgur.com/kn2BQZq.png" width="300" height="100">
+    <img src="https://i.imgur.com/YXaw2qO.png" width="400" height="200">
+    
+    <img src="https://i.imgur.com/kn2BQZq.png" width="300" height="100">
  
 3. Recipe App
 
@@ -30,7 +32,9 @@
 
     Completion:
     
-    <img src="https://i.imgur.com/9V1xNdl.png" width="280" height="400"><img src="https://i.imgur.com/mfAZlpL.png" width="280" height="400">
+    <img src="https://i.imgur.com/9V1xNdl.png" width="280" height="400">
+    
+    <img src="https://i.imgur.com/mfAZlpL.png" width="280" height="400">
 
 4. Notes App
 
@@ -38,6 +42,10 @@
 -   CRUD note
 -   markdown
 -   localStorage
+
+    <img src="https://i.imgur.com/jKdc83G.png" width="400" height="200">
+    
+    <img src="https://i.imgur.com/90KuoYj.png" width="400" height="200">
 
 5. ToDo App
 
