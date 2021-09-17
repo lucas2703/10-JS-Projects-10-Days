@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+[contenteditable] {
+    outline: 0px;
+}
+
+body {
+    background-color: #7BDAF3;
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    margin: 10;
+}
+
+.btn-header, .nn-btn-header {
+    align-items: center;
+    background-color: rgb(194, 194, 76);
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-header button, .nn-btn-header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    color: #ECFAF5;
+}
+
+.fa-recycle {
+    margin-top: 3px;
+}
+
+.note-container, .new-note {
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.2);
+    margin: 20px;
+    width: 275px;
+}
+
+.notes {
+    border: solid 2px rgb(194, 194, 76);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+}
+
+.notes, .note {
+    background-color: #ECFAF5;    
+    border: 0;
+    border-top: none;
+    height: 225px;
+    padding: 0px 5px;
+}
+
+.stored-note {
+    border: solid 2px rgb(194, 194, 76);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 80px;
+    margin: 10px 5px;
+    padding: 0px 4px;
+    width: 120px;
+    word-wrap: break-word;
+}
+
+.stored-note:hover {
+    opacity: 50%;
+}
