@@ -53,6 +53,10 @@
 -   CRUD todos
 -   localStorage
 
+    Completion: 
+
+    <img src="https://i.imgur.com/p2yAjBZ.png" width="500" height="250">
+
 6. Movie App
 
 -   Design: https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193
