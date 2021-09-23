@@ -65,13 +65,15 @@
 -   fav movie
 -   actors
 
-TODO: 
+    TODO: 
     1. could implement HTML for each slider automatically instead of inputting manually
+
     2. search-bar recommendation pop-up
 
     Completion:
 
-    <img src="">
+    <img src="https://i.imgur.com/vZU9qj9.png" width="800" height="450">
+    <img src="https://i.imgur.com/TvXMAJm.png" width="800" height="450">
 
 7. GitHub Profiles App
 
