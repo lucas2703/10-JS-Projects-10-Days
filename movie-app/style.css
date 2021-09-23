@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-content: center;
+    background-color: #272532;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-height: 100vh;
+}
+
+.genre-header {
+    color: #83CFDF;
+    margin: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.movie-info {
+    align-items: center;
+    background-color: #13688C;
+    border-radius: 10px;
+    display: none;
+    height: 430px;
+    margin: 10px 10px;
+    opacity: 90%;
+    padding: 10px;
+    position: absolute;
+    width: 280px;
+}
+
+.movie-info h3 {
+    line-height: 1;
+    margin-bottom: -0.5rem;
+    word-wrap: break-word;
+}
+
+.movie-info h2 {
+    color: black;
+    bottom: 0px;
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+}
+
+.movie-info p {
+    font-size: 1rem;
+}
+
+.greenRate {
+    color: green;
+}
+
+.orangeRate {
+    color: orange;
+}
+
+.redRate { 
+    color: red;
+}
+
+.rating {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.search-header {
+    background-color: #373B69;
+    height: 80px;
+    width: 100%;
+}
+
+.lukeflix {
+    color: red;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.search-bar {
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #13688C;
+    color: #13688C;
+    font-size: 1rem;
+    font-weight: 700;
+    right: 0;
+    height: 50px;
+    margin: 15px;
+    outline: 0;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.search-bar:focus {
+    outline: 0px;
+}
+
+.searchedMovie {
+    background-color: #13688C;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    height: 820px;
+    display: block;
+    left: calc(50vw - 150px);
+    position: absolute;
+    top: 10vh;
+    border: 2px solid white;
+    width: 300px;
+}
+
+.searchedMovie img {
+    border-radius: 10px;
+    height: auto;
+    width: 296px;
+}
+
+.slide:hover .movie-info {
+    display: block;
+}
+
+.splide__slide img {
+	width : 50%;
+	height: auto;
+}
+
+.splide {
+    width: 100%;
+}
+
+.slide {
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    height: auto;
+    line-height: 11;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+.slide p {
+    color: white;
+    position: absolute;
+}
+
+.splide__slide img {
+	width : 300px;
+	height: auto;
+}

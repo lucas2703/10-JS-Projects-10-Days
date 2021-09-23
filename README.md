@@ -65,6 +65,14 @@
 -   fav movie
 -   actors
 
+TODO: 
+    1. could implement HTML for each slider automatically instead of inputting manually
+    2. search-bar recommendation pop-up
+
+    Completion:
+
+    <img src="">
+
 7. GitHub Profiles App
 
 -   Design: https://uidesigndaily.com/posts/photoshop-profile-card-user-day-286
