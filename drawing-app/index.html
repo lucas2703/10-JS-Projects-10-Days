@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Drawing App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Draw!</h1>
+        <div class="drawing-container" id="drawing-container">
+            <div class="selector">
+                <div class="colour-grid">
+                    <button id="colour1" class="grid-colour" onclick="selectColour('red')"></button>
+                    <button id="colour2" class="grid-colour" onclick="selectColour('orange')"></button>
+                    <button id="colour3" class="grid-colour" onclick="selectColour('yellow')"></button>
+                    <button id="colour4" class="grid-colour" onclick="selectColour('green')"></button>
+                    <button id="colour5" class="grid-colour" onclick="selectColour('blue')"></button>
+                    <button id="colour6" class="grid-colour" onclick="selectColour('indigo')"></button>
+                    <button id="colour7" class="grid-colour" onclick="selectColour('violet')"></button>
+                    <button id="colour8" class="grid-colour" onclick="selectColour('black')"></button>
+                </div>
+            
+                <input type="color" id="head" name="head" value="#add8e6" onchange="changeColour()">
+
+                <button id="eraser-btn" class="eraser-btn" value="Off" onclick="eraser()">
+                    <i class="fas fa-eraser"></i>
+                </button>
+
+                <label class="brush-thick">Brush Thickness: <span id="brush-thick"></span></label>
+                <input type="range" min="1" max="100" class="slider" id="thickness-slider">
+            </div>
+            <div class="canvas">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-color: rgb(99, 180, 230);
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.brush-thick {
+    color: white;
+    font-size: 1rem;
+    margin: 20px 0 -40px 0;
+}
+
+.colour-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-colour {
+    border-radius: 0px;
+    height: 35px;
+    width: 35px;
+}
+
+#colour1 {
+    background-color: red;
+}
+
+#colour2 {
+    background-color: orange;
+}
+
+#colour3 {
+    background-color: yellow;
+}
+
+#colour4 {
+    background-color: green;
+}
+
+#colour5 {
+    background-color: blue;
+}
+
+#colour6 {
+    background-color: indigo;
+}
+
+#colour7 {
+    background-color: violet;
+}
+
+#colour8 {
+    background-color: black;
+}
+
+.drawing-container {
+    background-color: white;
+    height: 700px;
+    position: relative;
+    width: 1200px;
+}
+
+.eraser-btn {
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    margin: 10px 0;
+    width: 75px;
+    height: 50px;
+}
+
+.eraser-btn:hover {
+    color: rgb(241, 235, 235);
+}
+
+.fa-eraser {
+    font-size: 3rem;
+}
+
+.selector {
+    align-items: center;
+    background-color: rgb(62, 204, 252);
+    border: 2px solid rgb(31, 153, 190);
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    padding: 20px 0;
+    position: fixed;
+    width: 200px;
+
+}
+
+.slider {
+    margin: 40px 0;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 25px;
+    background: #056eaa;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #7c54eb;
+    cursor: pointer;
+}
+
+#canvas {
+    position: static;
+}
+
+#head {
+    background: transparent;
+    border: none;
+    margin: 20px 0;
+    padding: 0 0;
+    height: 50px;
+    width: 75px;
+}

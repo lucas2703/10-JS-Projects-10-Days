@@ -90,7 +90,11 @@
 
 -   canvas
 -   size
--   color
+-   color  
+
+    Completion:
+
+    <img src="https://i.imgur.com/yAWmRyT.png" width="800" height="450">
 
 9. Password Generator
 
