@@ -104,6 +104,10 @@
 -   symbols
 -   copy to clipboard
 
+    Completion:
+
+    <img src="https://i.imgur.com/D9OI5TE.png" height="400" width="400">
+
 10. Weather App
 
 -   Design: https://uidesigndaily.com/posts/photoshop-weather-prognosis-day-156

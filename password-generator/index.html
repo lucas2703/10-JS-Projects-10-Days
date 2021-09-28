@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="password-container">
+            <h2>Password Generator</h2>
+            <div class="password-out">
+                <span class="password" id="password"></span>
+                <button id="copy-btn" class="copy-btn"><i class="far fa-clipboard"></i></button>
+            </div>
+
+            <div class="pw-config">
+                <div class="form">
+                    <label for="pw-length">Password Length</label>
+                    <input type="text" class="pw-length" id="pw-length" value="15"></li>
+                </div>
+                <div class="form">
+                    <label for="pw-numbers">Include numbers</label>
+                    <input type="checkbox" class="pw-numbers" id="pw-numbers" checked></li>
+                </div>
+                <div class="form">
+                    <label for="pw-upper">Include uppercase</label>
+                    <input type="checkbox" class="pw-upper" id="pw-upper" checked></li>
+                </div>
+                <div class="form">
+                    <label for="pw-symbols">Include symbols</label>
+                    <input type="checkbox" class="pw-symbols" id="pw-symbols" checked></li>
+                </div>
+            </div>
+
+            <button id="pw-generate" class="pw-generate">Generate Password</button>
+        </div>
+    </body>
+</html>
