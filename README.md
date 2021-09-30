@@ -117,4 +117,4 @@
 
     Completion:
 
-    <img src="https://i.imgur.com/K36MNIa.png" height="800" height="450">
+    <img src="https://i.imgur.com/K36MNIa.png" width="800" height="450">
