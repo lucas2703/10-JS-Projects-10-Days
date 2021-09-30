@@ -114,3 +114,7 @@
 -   enter location
 -   get weather
 -   have some icons?
+
+    Completion:
+
+    <img src="https://i.imgur.com/K36MNIa.png" height="800" height="450">

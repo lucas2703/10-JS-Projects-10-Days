@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="search">
+            <button class="search-btn" id="search-btn"><i class="fas fa-search"></i></button>
+            <input type="text" class="search-bar" id="search-bar" placeholder="enter location">
+        </div>
+
+        <div class="location-time">
+            <span class="location" id="location">Location, Country</span><br>
+            <span class="date" id="date">Date</span>
+        </div>
+
+        <div class="weather-now">
+            <div class="now-graphic">
+                <img id="weather-now-img" src="https://www.metaweather.com/static/img/weather/lc.svg">
+                <p>
+                    <span class="temp-now" id="temp-now">0</span> 
+                    <br><span id="weather-forecast">weather forescast</span>
+                </p>
+            </div>
+            <div class="now-details">
+                <div class="grid-detail" class="high">
+                    <span class="detail-unit" id="high-unit">0</span>high
+                </div>
+                <div class="grid-detail" class="wind">
+                    <span class="detail-unit" id="wind-unit">0</span>wind
+                </div>
+                <div class="grid-detail" class="sunrise">
+                    <span class="detail-unit" id="sunrise-unit">0</span>sunrise
+                </div>
+                <div class="grid-detail" class="low">
+                    <span class="detail-unit" id="low-unit">0</span>low
+                </div>
+                <div class="grid-detail" class="humidity">
+                    <span class="detail-unit" id="humidity-unit">0</span>humidity
+                </div>
+                <div class="grid-detail" class="sunset">
+                    <span class="detail-unit" id="sunset-unit">0</span>sunset
+                </div>
+            </div>
+        </div>
+
+        <h1>5-day forecast</h1>
+
+        <div class="five-day-forecast">
+            <div class="five-day" id="tomorrow1"></div>
+            <div class="five-day" id="tomorrow2"></div>
+            <div class="five-day" id="tomorrow3"></div>
+            <div class="five-day" id="tomorrow4"></div>
+            <div class="five-day" id="tomorrow5"></div>
+        </div>
+    </body>
+</html>
